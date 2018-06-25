@@ -17,14 +17,17 @@
 <body>
     
   <div class="contant">
+    <!-- section Above Navbar -->
      <div class="header">
          <div>Shubhm kapoor</div>
          <div>Shubhm kapoor</div>
          <div>Shubhm kapoor</div>
      </div> 
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand lead" href="#">
+        <img src="img/icon1.png" class="img-fluid" style="width: 35px;" alt="">
+        Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -49,9 +52,7 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+
           </ul>
 
         </div>
@@ -73,45 +74,47 @@
               
           <div class="element-body">
                <h4>Palindrome Problem</h4>
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                 Blanditiis minima beatae, ut amet dolorem, fugiat sit perferendis
-                  unde necessitatibus quo architecto, possimus exercitationem est iste
-                   natus ex! Neque, assumenda explicabo?
+               <p>A number is palindrom if for a given number <strong>X=1224</strong> ,the reverse number X that is 4221 ,should be
+                equal then number is palindrome .
+                </p>
+                <p class="example">
+                  For the number X=1221, and the reserve is also 1221.So, number is palindrome .
                 </p>
                 <!-- important tags relatd to the problem statment -->
-                <span class="badge badge-pill badge-primary">Primary</span>
-                <span class="badge badge-pill badge-primary">Primary</span>
+                <span class="badge badge-pill badge-primary">Mathematical</span>
+                <span class="badge badge-pill badge-primary">Recursion</span>
+                <span class="badge badge-pill badge-primary">Palindrome</span>
 
                  <div class="element-box">
                     <div id="accordion flex-md-row">
                 <!-- we can add more language using card divison -->
                          <!-- c/c++ -->
                         <div class="card">
-                          <div class="card-header" id="headingOne">
+                          <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
                             <h5 class="mb-0">
-                              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <button class="btn btn-link" >
                                 C/C++
                               </button>
                             </h5>
                           </div>
                       
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
+                            <div class="card-body" id="edit">
                               Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
                           </div>
                         </div>
                         <!-- java -->
                         <div class="card">
-                          <div class="card-header" id="headingTwo">
+                          <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
                             <h5 class="mb-0">
-                              <span role="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <button role="button" class="btn btn-link collapsed">
                                Java
-                              </span>
+                              </button>
                             </h5>
                           </div>
                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
+                            <div class="card-body" id="edit">
                               Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
                           </div>
@@ -124,14 +127,235 @@
           </div>
 
           <div class="element-body">
-              ffffffffffff
+              <h4>Palindrome Problem</h4>
+              <p>A number is palindrom if for a given number <strong>X=1224</strong> ,the reverse number X that is 4221 ,should be
+               equal then number is palindrome .
+               </p>
+               <p class="example">
+                 For the number X=1221, and the reserve is also 1221.So, number is palindrome .
+               </p>
+               <!-- important tags relatd to the problem statment -->
+               <span class="badge badge-pill badge-primary">Mathematical</span>
+               <span class="badge badge-pill badge-primary">Recursion</span>
+               <span class="badge badge-pill badge-primary">Palindrome</span>
+
+                <div class="element-box">
+                   <div id="accordion flex-md-row">
+               <!-- we can add more language using card divison -->
+                        <!-- c/c++ -->
+                       <div class="card">
+                         <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                           <h5 class="mb-0">
+                             <button class="btn btn-link" >
+                               C/C++
+                             </button>
+                           </h5>
+                         </div>
+                     
+                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                           <div class="card-body">
+                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                           </div>
+                         </div>
+                       </div>
+                       <!-- java -->
+                       <div class="card">
+                         <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                           <h5 class="mb-0">
+                             <button role="button" class="btn btn-link collapsed">
+                              Java
+                             </button>
+                           </h5>
+                         </div>
+                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                           <div class="card-body">
+                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                           </div>
+                         </div>
+                       </div>
+
+
+                       </div>
+                </div>
+                
+         </div>
+
+         <div class="element-body">
+            <h4>Palindrome Problem</h4>
+            <p>A number is palindrom if for a given number <strong>X=1224</strong> ,the reverse number X that is 4221 ,should be
+             equal then number is palindrome .
+             </p>
+             <p class="example">
+               For the number X=1221, and the reserve is also 1221.So, number is palindrome .
+             </p>
+             <!-- important tags relatd to the problem statment -->
+             <span class="badge badge-pill badge-primary">Mathematical</span>
+             <span class="badge badge-pill badge-primary">Recursion</span>
+             <span class="badge badge-pill badge-primary">Palindrome</span>
+
+              <div class="element-box">
+                 <div id="accordion flex-md-row">
+             <!-- we can add more language using card divison -->
+                      <!-- c/c++ -->
+                     <div class="card">
+                       <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                         <h5 class="mb-0">
+                           <button class="btn btn-link" >
+                             C/C++
+                           </button>
+                         </h5>
+                       </div>
+                   
+                       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                         <div class="card-body">
+                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                         </div>
+                       </div>
+                     </div>
+                     <!-- java -->
+                     <div class="card">
+                       <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                         <h5 class="mb-0">
+                           <button role="button" class="btn btn-link collapsed">
+                            Java
+                           </button>
+                         </h5>
+                       </div>
+                       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                         <div class="card-body">
+                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                         </div>
+                       </div>
+                     </div>
+
+
+                     </div>
+              </div>
+              
+       </div>
+
+       <div class="element-body">
+          <h4>Palindrome Problem</h4>
+          <p>A number is palindrom if for a given number <strong>X=1224</strong> ,the reverse number X that is 4221 ,should be
+           equal then number is palindrome .
+           </p>
+           <p class="example">
+             For the number X=1221, and the reserve is also 1221.So, number is palindrome .
+           </p>
+           <!-- important tags relatd to the problem statment -->
+           <span class="badge badge-pill badge-primary">Mathematical</span>
+           <span class="badge badge-pill badge-primary">Recursion</span>
+           <span class="badge badge-pill badge-primary">Palindrome</span>
+
+            <div class="element-box">
+               <div id="accordion flex-md-row">
+           <!-- we can add more language using card divison -->
+                    <!-- c/c++ -->
+                   <div class="card">
+                     <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                       <h5 class="mb-0">
+                         <button class="btn btn-link" >
+                           C/C++
+                         </button>
+                       </h5>
+                     </div>
+                 
+                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                       <div class="card-body">
+                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                       </div>
+                     </div>
+                   </div>
+                   <!-- java -->
+                   <div class="card">
+                     <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                       <h5 class="mb-0">
+                         <button role="button" class="btn btn-link collapsed">
+                          Java
+                         </button>
+                       </h5>
+                     </div>
+                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                       <div class="card-body">
+                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                       </div>
+                     </div>
+                   </div>
+
+
+                   </div>
             </div>
+            
+     </div>
+
+     <div class="element-body">
+        <h4>Palindrome Problem</h4>
+        <p>A number is palindrom if for a given number <strong>X=1224</strong> ,the reverse number X that is 4221 ,should be
+         equal then number is palindrome .
+         </p>
+         <p class="example">
+           For the number X=1221, and the reserve is also 1221.So, number is palindrome .
+         </p>
+         <!-- important tags relatd to the problem statment -->
+         <span class="badge badge-pill badge-primary">Mathematical</span>
+         <span class="badge badge-pill badge-primary">Recursion</span>
+         <span class="badge badge-pill badge-primary">Palindrome</span>
+
+          <div class="element-box">
+             <div id="accordion flex-md-row">
+         <!-- we can add more language using card divison -->
+                  <!-- c/c++ -->
+                 <div class="card">
+                   <div class="card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                     <h5 class="mb-0">
+                       <button class="btn btn-link" >
+                         C/C++
+                       </button>
+                     </h5>
+                   </div>
+               
+                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                     <div class="card-body">
+                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                   </div>
+                 </div>
+                 <!-- java -->
+                 <div class="card">
+                   <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                     <h5 class="mb-0">
+                       <button role="button" class="btn btn-link collapsed">
+                        Java
+                       </button>
+                     </h5>
+                   </div>
+                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                     <div class="card-body">
+                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                     </div>
+                   </div>
+                 </div>
+
+
+                 </div>
+          </div>
+          
+   </div>
+
 
          
        </div>
       <!-- hide for small screen and shortcut in menu  -->
-       <div class="col-sm-3 display-none">
-           notification
+       <div class="col-sm-3 treanding">
+          <ul class="list-group">
+              <a href="#" class="list-group-item list-group-item-action  disabled">
+                  <strong>Treading Content</strong>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Python List, Set, Tuple & Dictionary</a>
+                <a href="#" class="list-group-item list-group-item-action">Number Theory</a>
+                <a href="#" class="list-group-item list-group-item-action">Set to Array in Java</a>
+                <a href="#" class="list-group-item list-group-item-action">School Programming</a>
+            </ul>
        </div>
       </div>
 

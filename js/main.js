@@ -3,8 +3,9 @@ $(document).ready(function(){
     $('#toogle-btn').hide();
 
 
-
-
+//   var code=$('#edit').value();
+//   document.write(code);
+alert("SS");
 
 
 //  $(window).resize(function() {
