@@ -3,9 +3,11 @@ $(document).ready(function(){
     $('#toogle-btn').hide();
 
 
-//   var code=$('#edit').value();
+  var code=$('#edit').text();
+  console.log(typeof code);
+  console.log(code.length);
 //   document.write(code);
-alert("SS");
+//  alert(code);
 
 
 //  $(window).resize(function() {
