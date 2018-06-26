@@ -1,5 +1,5 @@
 # Techie_Programmer
-## commit
+## Templates
 
 **This is static site hitesh sir.Not fully scaleble. The given templates is scalable but we can insert the content dynamicaly each time.
 This can be corrected by taking dynamic data from array each this and display in div tags.**
