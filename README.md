@@ -1,7 +1,7 @@
 # Techie_Programmer
 ## commit
 
-**This is static site hitesh sir.Not fully scaleble. The given templates is scalable but we have we insert the content each thim.
+**This is static site hitesh sir.Not fully scaleble. The given templates is scalable but we can insert the content dynamicaly each time.
 This can be corrected by taking dynamic data from array each this and display in div tags.**
 
 *I also added some some thing like navbar menu, Quicklick . These are not not these are just to display. __All other things are as followed__*
