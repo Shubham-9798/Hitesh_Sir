@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Galada|Open+Sans|eater|Montserrat|IM+Fell+English');
 
-.contant{
-    width:auto;
+
+/* top section */
+body{
+   
 }
+.header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.header div{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.header-body{
+    background-color: #afe0e0;
+
+}
+
 
 /* Navbar */
 .bg-light{
@@ -29,19 +49,6 @@
 .navbar-light .navbar-brand:hover{
     color: rgb(176, 241, 163);
     
-}
-
-.header{
-    display: flex;
-    height: 70px;
-    
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.header div{
-    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -203,6 +210,12 @@
     word-spacing: 3px;
     letter-spacing: 2px;
     /* font-weight: 500px!important; */
+}
+
+/* css for editor */
+.cd-comment{
+    color:rgb(167, 243, 167);
+    font-weight: 300;
 }
 
 @media screen and (max-width: 576px) {
