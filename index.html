@@ -7,19 +7,17 @@
     <title>Techie_Programmer</title>
     <!-- meta tags -->
     
-    <meta name="description" content="This is completely free websites Related to techie, Blogger Tutorial, Online Earning Tutorial.">
-    <meta name="keywords" content="c,c++,java,program">
+    <meta name="description" content="This is completely free websites Related to techie,palindrom,fibonnaci, largest number,factorial,bubble sort">
+    <meta name="keywords" content="c,c++,programming tutorials
+    programming tutorials online,
+    programming tutorials java,
+    programming tutorial for beginners,
+    programming tutorial c++,java,program,palindrom,fibonnaci, largest number,factorial,bubble sort">
+
     <meta content="techie" name="author">
     <meta name="robots" content="noindex,nofollow">
 
-    <!-- palindrom program tags -->
-    <meta name="description" content="Palindrome Number Program in C++ and Java - A palindrome number is a number that remains the same when its digits are reversed. Like 16461, after reverse 16461 it same as original.">
-    <meta name="keywords" content="palindrome number program in c++ and java, c++ program to check number is palindrome or not">
-    <!-- fibonnci series -->
-    <meta name="description" content="">
-    <meta name="keywords" content="palindrome number program in c++ and java, c++ and java program to check number is palindrome or not">
-
-
+    
     <!-- Title Icon -->
     <link rel="shortcut icon" href="img/icon1.png" />
     <!-- Bootstrap CSS -->
@@ -27,26 +25,27 @@
 
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
-    <!--  -->
+    <!-- code highlighter -->
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </head>
 <body>
-    
+  
 
-  <div class="contant">
+<div class="contant">
     <!-- section Above Navbar -->
-     <div class="header-body">
+      <div class="header-body">
        <div class="container header">
-         <div><img src="img/icon1.png" class="img-fluid" style="width: 35px;" alt="">&nbsp Techie_Programmer</div>
+         <div><img src="img/icon1.png" class="img-fluid" style="width: 35px;" alt="">&nbsp <span style="">  Techie_Programmer</span></div>
          <div></div>
          <div><button type="button" class="btn btn-success">Login</button></div>
         </div>
-     </div> 
+      </div> 
 
 <!-- Navbar -->
     <nav class=" navbar sticky-top navbar-expand-md navbar-light bg-light">
-        <!-- <a class="navbar-brand lead" href="#">
-          <img src="img/icon1.png" class="img-fluid" style="width: 35px;" alt="">
-        </a> -->
+         <a class="navbar-brand lead" href="index.html">
+          <img src="img/icon1.png" class="img-fluid" style="width: 35px;" alt="">Techie
+        </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,27 +53,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul class="navbar-nav mr-auto">
+
             <li class="nav-item">
               <a class="nav-link" href="#">&nbsp Algorithm <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Data Structure</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Language</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Interview</a>
+                </li>
 
           </ul>
-
         </div>
+
       </nav>
       
     <div class="container-1">
@@ -82,16 +77,17 @@
       <div class="row">
        <div class=" col-sm-3 section-1">
           <div class="element-header-1">Problem Statement</div>
-          <div class="element-1">Palindrome Program</div>
-          <div class="element-1">Fibonacci Series</div>
-          <div class="element-1">Factorial Number</div>
-          <div class="element-1">Bubble Sort</div>
-          <div class="element-1">Find Largest Number in Array</div>
+          <a href="#1" class="element-1">Palindrome Program</a>
+          <a href="#2" class="element-1">Fibonacci Series</a>
+          <a href="#3" class="element-1">Factorial Number</a>
+          <a href="#4" class="element-1" href="collapseOne-4">Bubble Sort</a>
+          <a href="#5" class="element-1">Find Largest Number in Array</a>
        </div>
 
        <div class="col-sm-6 section-2">
               
-          <div class="element-body">
+          <div class="element-body" id="1">
+            <!-- heading -->
                <h4>Palindrome Problem</h4>
                <p>A number is palindrom if for a given number <strong>X=1224</strong> ,the reverse number X that is 4221 ,should be
                 equal then number is palindrome .
@@ -118,10 +114,10 @@
                           </div>
                       
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <pre class="card-body" id="edit">
-    /* comment */
-    #include<iostream.h>
-    #include<conio.h>
+                            <pre class="card-body prettyprint">
+    
+    #include&ltiostream.h&gt
+ 
     
     void main()
     {
@@ -132,23 +128,23 @@
     b=no;
     while(no>0)
     {
-    a=no%10;
-    no=no/10;
-    temp=temp*10+a;
+     a=no%10;
+     no=no/10;
+     temp=temp*10+a;
     }
     if(temp==b)
     {
-    cout<<"Palindrome";
+     cout<<"Palindrome";
     }
     else
     {
-    cout<<"Not Palindrome";
+     cout<<"Not Palindrome";
     }
     getch();
     }
                                   </pre>
                           </div>
-                        </div>
+                        </div><!-- end of card class -->
                         <!-- java -->
                         <div class="card">
                           <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
@@ -159,40 +155,455 @@
                             </h5>
                           </div>
                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <pre class="card-body" id="edit">
+                            <pre class="card-body prettyprint">
     class PalindromeExample{  
-      public static void main(String args[]){  
-        int r,sum=0,temp;    
-        int n=454;//It is the number variable to be checked for palindrome  
+    public static void main(String args[]){  
+      int r,sum=0,temp;    
+      int n=454;//It is the number variable to be checked for palindrome  
         
-        temp=n;    
-        while(n>0){    
+      temp=n;    
+      while(n>0){    
         r=n%10;  //getting remainder  
         sum=(sum*10)+r;    
         n=n/10;    
-        }    
-        if(temp==sum)    
+      }    
+      if(temp==sum)    
         System.out.println("palindrome number ");    
-        else    
+      else    
         System.out.println("not palindrome");    
       }  
-      }                            </pre>
+    }                            </pre>
                           </div>
-                        </div>
+                      </div><!-- end of card class-->
 
 
                         </div>
-                 </div>
+                 </div><!-- end of elemnet-box -->
                  
-          </div>
+          </div> <!-- end of elemnet-body -->
 
-         
+          <!-- fibonnaci section -->
+          <div class="element-body" id="2">
+              <!-- heading -->
+                 <h4>fibonnaci Series</h4>
+                 <p>The Fibonacci sequence is a series of numbers where a number is found by adding up the two numbers before it. Starting with 0 and 1, the sequence goes 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so forth. Written as a rule, the expression is xn = xn-1 + xn-2
+                  </p>
+                  <p class="example">
+                  </p>
+                  <!-- important tags relatd to the problem statment -->
+                  <span class="badge badge-pill badge-primary">Mathematical</span>
+                  <span class="badge badge-pill badge-primary">iteration</span>
+                  <span class="badge badge-pill badge-primary">Fibonacci series</span>
+  
+                   <div class="element-box">
+                      <div id="accordion flex-md-row">
+                  <!-- we can add more language using card divison -->
+                           <!-- c/c++ -->
+                          <div class="card">
+                            <div class="card-header" data-toggle="collapse" data-target="#collapseOne-1" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link" >
+                                  C/C++
+                                </button>
+                              </h5>
+                            </div>
+                        
+                            <div id="collapseOne-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                              <pre class="card-body prettyprint" >
+  #include &ltstdio.h&gt
+
+  int main()
+  {
+      int i, n, t1 = 0, t2 = 1, nextTerm;
+  
+      printf("Enter the number of terms: ");
+      scanf("%d", &n);
+  
+      printf("Fibonacci Series: ");
+  
+      for (i = 1; i <= n; ++i)
+      {
+          printf("%d, ", t1);
+          nextTerm = t1 + t2;
+          t1 = t2;
+          t2 = nextTerm;
+      }
+      return 0;
+        }
+                             </pre>
+                            </div>
+                          </div><!-- end of card class -->
+                          <!-- java -->
+                          <div class="card">
+                            <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                              <h5 class="mb-0">
+                                <button role="button" class="btn btn-link collapsed">
+                                 Java
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseTwo-1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                              <pre class="card-body prettyprint" >
+        public class Fibonacci {
+
+    public static void main(String[] args) {
+
+      int n = 10, t1 = 0, t2 = 1;
+      System.out.print("First " + n + " terms: ");
+
+      for (int i = 1; i <= n; ++i)
+      {
+          System.out.print(t1 + " + ");
+
+          int sum = t1 + t2;
+          t1 = t2;
+          t2 = sum;
+                }
+            }
+        }                        </pre>
+                            </div>
+                        </div><!-- end of card class-->
+  
+  
+                          </div>
+                   </div><!-- end of elemnet-box -->
+                   
+            </div> <!-- end of elemnet-body -->
+
+            <!-- factorial of number -->
+
+            <div class="element-body" id="3">
+                <!-- heading -->
+                   <h4>Factorial Number</h4>
+                   <p>This factorial program find the factorial of given number i.e factorial of 5 is 120. 
+                    </p>
+                    <p class="example">
+                      For the number X=5, and the factorial  is 5*4*3*2*1 . such that X is greater then zero .
+                    </p>
+                    <!-- important tags relatd to the problem statment -->
+                    <span class="badge badge-pill badge-primary">Mathematical</span>
+                    <span class="badge badge-pill badge-primary">Iteration</span>
+                    <span class="badge badge-pill badge-primary">Factorial</span>
+    
+                     <div class="element-box">
+                        <div id="accordion flex-md-row">
+                    <!-- we can add more language using card divison -->
+                             <!-- c/c++ -->
+                            <div class="card">
+                              <div class="card-header" data-toggle="collapse" data-target="#collapseOne-2" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" >
+                                    C/C++
+                                  </button>
+                                </h5>
+                              </div>
+                          
+                              <div id="collapseOne-2" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <pre class="card-body prettyprint" >
+        
+        #include&ltiostream.h&gt
+        #include&ltconio.h&gt
+        
+        void main()
+        {
+        int a,no,b,temp=0;
+        clrscr();
+        cout<<"Enter any num: ";
+        cin>>no;
+        b=1;
+        while(no>0)
+        {
+          b=b*no;
+          no--;
+        }
+        cout<<"factorail is "<&lt b;
+        getch();
+        }
+                                      </pre>
+                              </div>
+                            </div><!-- end of card class -->
+                            <!-- java -->
+                            <div class="card">
+                              <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button role="button" class="btn btn-link collapsed">
+                                   Java
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <pre class="card-body prettyprint">
+  class PalindromeExample{  
+    public static void main(String args[]){  
+      int pro=1,temp;    
+      temp=5;    
+      while(temp>0){    
+        pro=pro*temp;
+      temp--;     
+    }  
+          System.out.println("temp");    
+          }                            </pre>
+                              </div>
+                          </div><!-- end of card class-->
+    
+    
+                            </div>
+                     </div><!-- end of elemnet-box -->
+                     
+              </div> <!-- end of elemnet-body -->
+
+              <!-- Bubble sort  -->
+
+              <div class="element-body" id="4">
+                  <!-- heading -->
+                     <h4>Bubble Sort </h4>
+                     <p>Bubble sort, sometimes referred to as sinking sort,
+                        is a simple sorting algorithm that repeatedly steps through the list
+                        to be sorted, compares each pair of adjacent items and
+                         swaps them if they are in the wrong order.</p>
+
+                      <p class="example">
+                        <!-- For the number X=1221, and the reserve is also 1221.So, number is palindrome . -->
+                      </p>
+                      <!-- important tags relatd to the problem statment -->
+                      <span class="badge badge-pill badge-primary">Mathematical</span>
+                      <span class="badge badge-pill badge-primary">Recursion</span>
+                      <span class="badge badge-pill badge-primary">Palindrome</span>
+      
+                       <div class="element-box">
+                          <div id="accordion flex-md-row">
+                      <!-- we can add more language using card divison -->
+                               <!-- c/c++ -->
+                              <div class="card">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseOne-3" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link" >
+                                      C/C++
+                                    </button>
+                                  </h5>
+                                </div>
+                            
+                                <div id="collapseOne-3" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                  <pre class="card-body prettyprint">
+    // An optimized version of Bubble Sort
+void bubbleSort(int arr[], int n)
+{
+   int i, j;
+   bool swapped;
+   for (i = 0; i &lt n-1; i++)
+   {
+     swapped = false;
+     for (j = 0; j &lt n-i-1; j++)
+     {
+        if (arr[j] > arr[j+1])
+        {
+           swap(&arr[j], &arr[j+1]);
+           swapped = true;
+        }
+     }
+ 
+     // IF no two elements were swapped by inner loop, then break
+     if (swapped == false)
+        break;
+   }
+}
+ 
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i &lt size; i++)
+        printf("%d ", arr[i]);
+    printf("n");
+}
+ 
+// Driver program to test above functions
+int main()
+{
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    bubbleSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    return 0;
+}
+                                        </pre>
+                                </div>
+                              </div><!-- end of card class -->
+                              <!-- java -->
+                              <div class="card">
+                                <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                                  <h5 class="mb-0">
+                                    <button role="button" class="btn btn-link collapsed">
+                                     Java
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseTwo-3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                  <pre class="card-body prettyprint">
+// Java program for implementation of Bubble Sort
+class BubbleSort
+{
+    void bubbleSort(int arr[])
+    {
+        int n = arr.length;
+        for (int i = 0; i < n-1; i++)
+            for (int j = 0; j &lt n-i-1; j++)
+                if (arr[j] > arr[j+1])
+                {
+                    // swap temp and arr[i]
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+    }
+ 
+    /* Prints the array */
+    void printArray(int arr[])
+    {
+        int n = arr.length;
+        for (int i=0; i<&lt n; ++i)
+            System.out.print(arr[i] + " ");
+        System.out.println();
+    }
+ 
+    // Driver method to test above
+    public static void main(String args[])
+    {
+        BubbleSort ob = new BubbleSort();
+        int arr[] = {64, 34, 25, 12, 22, 11, 90};
+        ob.bubbleSort(arr);
+        System.out.println("Sorted array");
+        ob.printArray(arr);
+    }
+}
+                                  </pre>
+                                </div>
+                            </div><!-- end of card class-->
+      
+      
+                              </div>
+                       </div><!-- end of elemnet-box -->
+                       
+                </div> <!-- end of elemnet-body -->
 
 
+                <!-- largest number in array -->
+               
+                <div class="element-body" id="5">
+                    <!-- heading -->
+                       <h4>Largest Number in Array</h4>
+                       <p>For thr given array of size n, we have to find the largest number in array
+                        </p>
+                        <p class="example">
+                         for given array arr=19,28,49,43,99. then the max of this is 99 .
+                        </p>
+                        <!-- important tags relatd to the problem statment -->
+                        <span class="badge badge-pill badge-primary">Mathematical</span>
+                        <span class="badge badge-pill badge-primary">Recursion</span>
+                        <span class="badge badge-pill badge-primary">Palindrome</span>
+        
+                         <div class="element-box">
+                            <div id="accordion flex-md-row">
+                        <!-- we can add more language using card divison -->
+                                 <!-- c/c++ -->
+                                <div class="card">
+                                  <div class="card-header" data-toggle="collapse" data-target="#collapseOne-4" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link" >
+                                        C/C++
+                                      </button>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="collapseOne-4" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <pre class="card-body prettyprint">
+            
+            #include&ltiostream.h>
+            #include&ltconio.h>
 
-         
-       </div>
-      <!-- hide for small screen and shortcut in menu  -->
+// C function to find maximum in arr[] of size n
+int largest(int arr[], int n)
+{ 
+    int i;
+   
+    // Initialize maximum element
+    int max = arr[0];
+
+    // Traverse array elements from second and
+    // compare every element with current max  
+    for (i = 1; i < n; i++)
+        if (arr[i] > max)
+            max = arr[i];
+
+    return max;
+ }
+
+ int main()
+  {
+    int arr[] = {10, 324, 45, 90, 9808};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    printf("Largest in given array is %d", largest(arr, n));
+    return 0;
+  }
+
+                                          </pre>
+                                  </div>
+                                </div><!-- end of card class -->
+                                <!-- java -->
+                                <div class="card">
+                                  <div class="card-header"  data-toggle="collapse" data-target="#collapseTwo-4" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                                    <h5 class="mb-0">
+                                      <button role="button" class="btn btn-link collapsed">
+                                       Java
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div id="collapseTwo-4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <pre class="card-body prettyprint" >
+  // Java Program to find maximum in arr[] 
+class Test
+{
+     static int arr[] = {10, 324, 45, 90, 9808};
+      
+     // Method to find maximum in arr[]
+     static int largest()
+     {
+         int i;
+          
+         // Initialize maximum element
+         int max = arr[0];
+       
+         // Traverse array elements from second and
+         // compare every element with current max  
+         for (i = 1; i < arr.length; i++)
+             if (arr[i] > max)
+                 max = arr[i];
+       
+         return max;
+     }
+      
+     // Driver method
+     public static void main(String[] args) 
+     {
+         System.out.println("Largest in given array is " + largest());
+        }
+ }
+
+                         </pre>
+                                  </div>
+                              </div><!-- end of card class-->
+        
+        
+                                </div>
+                         </div><!-- end of elemnet-box -->
+                         
+                  </div> <!-- end of elemnet-body -->
+                  
+
+    </div><!-- end of section-2 -->
+
+      <!--  shortcut for treanding content -->
        <div class="col-sm-3 treanding">
           <ul class="list-group">
               <a href="#" class="list-group-item list-group-item-action  disabled">
@@ -204,12 +615,12 @@
                 <a href="#" class="list-group-item list-group-item-action">School Programming</a>
             </ul>
        </div>
-      </div>
+      </div><!--end od row class-->
 
-    </div>
+    </div><!-- enf of container-1 class-->
       
 
-</div>
+</div><!-- end of content -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
